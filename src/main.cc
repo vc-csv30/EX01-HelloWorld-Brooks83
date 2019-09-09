@@ -11,7 +11,9 @@
 #include <iostream>
 #include <csv30>
 
+using namespace std;
+constant string word = "Hello, World!";
 int main(int argc, char *argv[]) {
-    std::cout << "Hello, World!" << std::endl;
+    cout << word << endl;
     return EXIT_SUCCESS;
 }
