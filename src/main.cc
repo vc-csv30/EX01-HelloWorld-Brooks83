@@ -12,7 +12,7 @@
 #include <csv30>
 
 using namespace std;
-constant string word = "Hello, World!";
+const string word = "Hello, World!";
 int main(int argc, char *argv[]) {
     cout << word << endl;
     return EXIT_SUCCESS;
